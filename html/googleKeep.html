@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="../js/keep.js"></script>
+    <link href="../css/googleKeep.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Google Keep</title>
+</head>
+
+<body onload="onStart()">
+    <div class="header">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/keepLogo.png" alt="" width="30" height="24" class="d-inline-block align-top">
+                    Google Keep
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div id="contain" class="contain">
+        <div class="card first" id="first">
+            <input class="cardInput" placeholder="Take a note...">
+        </div>
+        <div class="card second" id="second">
+            <input class="secondInput title" id="title" placeholder="Title" required >
+            <input class="secondInput note" id="description" placeholder="Take a note..." required >
+            <button class="btn btn-light " id="addNote" >Close</button>
+        </div>
+    </div>
+    <div class="container" id="potray" >
+          
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

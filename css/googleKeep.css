@@ -1,0 +1,91 @@
+.header{
+    margin-bottom: 30px;
+}
+.contain{
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.card{
+    outline: none;
+    width: 600px;
+    height: 20px;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    border-radius: 7px;
+    padding: 20px;
+    align-items: center;
+}
+.first{
+    justify-content: center;
+}
+.cardInput{
+    outline: none;
+    width: 580px;
+    height: 20px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.second{
+    height: 130px;
+}
+.card1{
+    width: 665px;
+}
+.secondInput{
+    border: 0;
+    outline: none;
+    width: 580px;
+    border: 0px;
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.note{
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn{
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    width: fit-content;
+    align-self: flex-end;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w3-panel{
+    width: 300px;
+    margin: 20px;
+}
+#delete{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    .first{
+        width: 300px;
+    }
+    .second{
+        width: 300px;
+    }
+    .cardInput{
+        width: 250px;
+    }
+    .secondInput{
+        width: 250px;
+    }
+}
